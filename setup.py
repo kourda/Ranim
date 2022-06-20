@@ -3,7 +3,7 @@ from ssl import Options
 import sys
 import os
 from cx_Freeze import setup,Executable
-files=['init.ui','second.ui','stats3G.xls','stats2G.xls','stats4G.xls']
+files=['icon.ico','init.ui','second.ui','stats3G.xls','stats2G.xls','stats4G.xls']
 target = Executable(
 	script="main.py",
 	icon="icon.ico",
